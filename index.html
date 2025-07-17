@@ -3,11 +3,81 @@
     <head>
         <title>CV</title>
         <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
-    <body>
+    <body class="cv">
         <div class="headline">
-            <img src="CV.png">
-            <h1 class="myname"> <b>Nikita</b> Kosyankov </h1>
+            <img src="CV.png" class="avatar">
+            <p class="myname"> <b class="main-name">Nikita</b> Kosyankov </p>
         </div>
+        <div class="contacts">
+            <div class="contact-block">
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/kosyan2917"> kosyan2917 </a>
+            </div>
+            <div class="contact-block">
+                <i class="bi bi-envelope"></i>
+                <p> nikita@kosyankov.com </p>
+            </div>            
+            <div class="contact-block">
+                <i class="bi bi-house"></i>
+                <p> Moscow </p>
+            </div>
+        </div>
+        <div class="main-grid">
+            <div>
+                <div class="info-block">
+                    <p class="section">About me</p>
+                    <p> 4th year student, seeking for opportunities for starting carrier in information security. In my free time I participate in CTF's in team <a href="https://ctftime.org/team/210132"> Drovosec </a>. </p>
+                </div>
+                <div class="info-block">
+                    <p class="section"> My achievmients </p>
+                    <div class="info-subsection">
+                        <p class="subsection"> CTF's and training services </p>
+                        <p> During CTF's I solve tasks from categories Web and Misc. Being in team <a href="https://ctftime.org/team/203141"> KA4KAHAPCKuE CyXAPuKu </a>, which included only 2 members including me, qualified for Russian CTF Cup 2024. Also on TCTF2025 solved the task from bugbounty category, which was made with collaboration of standoff, being granted some prizes for that. But now I am playing in team <a href="https://ctftime.org/team/210132"> Drovosec </a> and took the 1st place VolgaCTF 2025 Qualifier, 9th place on Srdnlen CTF 2025, and being a part of team <a href="https://ctftime.org/team/389934"> S4D Drovosec </a> took 2nd place on smileyCTF 2025 and 6th place on MaltaCTF 2025 Quals. In my spare time from CTF's I solve machines on <a href="https://app.hackthebox.com/profile/1071091"> Hack the box </a>, <a href="https://tryhackme.com/p/xokc"> try hack me </a> and pentesterlab</p>
+                    </div>
+                    <div class="info-subsection">
+                        <p class="subsection"> Development </p>
+                        <p> As a part of project activity in university and "for myself", I developed some apps using python (DRF и Flask) and Go, and also frontend apps using ReactJS, VueJS and Swift. Besides it, made bots on python, selenium and other technologies, which were chosen specifically for each project, to make blockchain based games to play itselves</p>
+                    </div>
+                    <div class="info-subsection">
+                        <p class="subsection"> Other </p>
+                        <p> As a part of my learning process in university, I completed course from Yandex's SHAD called "information security" and got 10 out of 10. Also completed courses "Advanced DevOps" and "Kubernetes" from MTS and got 8 out of 10 for both </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="info-block">
+                    <p class="section"> Skills </p>
+                    <div class="info-subsection">
+                        <p class="subsection"> Languages, libraries and frameworks</p>
+                        <p class="location"> Experienced </p>
+                        <p> Python &bull; Selenium &bull; Requests </p>
+                    </div>
+                    <div class="info-subsection">
+                        <p class="location"> Used </p>
+                        <p> C++ &bull; SQL &bull; Django &bull; OpenCV &bull; DRF &bull; JavaScript &bull; HTML &bull; CSS &bull; VueJS &bull; ReactJS &bull; TypeScript &bull; Go </p>
+                    </div>
+                    <div class="info-subsection">
+                        <p class="subsection"> Tools </p>
+                        <p class="location"> Used </p>
+                        <p> Git &bull; Docker &bull; Kubernetes &bull; Burp Suite </p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <p class="section"> Education </p>
+                    <div class="info-subsection">
+                        <p class="subsection">  MIPT </p>
+                        <p class="location"> Landau, physics, research (ex Faculty of General Applied Physics, ФОПФ in Russian) </p>
+                        <p> Been there for 5 terms, then went to HSSE </p>
+                    </div>
+                    <div class="info-subsection">
+                        <p class="location"> Higher school of Software Engineering (HSSE) </p>
+                        <p> Moved there from previous faculty beacuse I understood that I like programming more that physics. There I started to be interested in information security  </p>
+                    </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </body>
 </html>
